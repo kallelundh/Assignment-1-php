@@ -1,0 +1,25 @@
+
+1 ID Sven Bertil - 2 types of different news feeds(news feed item with lorem based on publish date)
+
+2 ID Evert Tub
+
+3 ID Emil Lönnebärsh
+
+4 ID Chesus Christus
+
+5 ID Donald Hump
+
+Variables X
+Multiple data types
+Arrays X
+Functions
+Loops (for, while or foreach) X
+Concatenation X
+Output (echo, print etc.) X
+
+The news feed items should contain:
+Title
+Content
+Author
+Published date
+Like counter (the number of likes a news feed item has received)
