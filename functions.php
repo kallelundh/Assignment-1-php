@@ -4,11 +4,11 @@ declare(strict_types=1);
 // execute/run any functions in this file. Keep it dumb.
 
 /**
- * This little function gets the footerDescription.
- * @param  string $title      [description]
- * @param  string $by         [description]
- * @param  string $editorName [description]
- * @return string             [description]
+ * Returns Plain news by Karl-Johan Lundholm
+ * @param  string The title of the site
+ * @param  string By
+ * @param  string Name of editor
+ * @return string This function gets the footerDescription.
  */
 
 function footerDescription(string $title, string $by, string $editorName) : string {
@@ -16,10 +16,10 @@ function footerDescription(string $title, string $by, string $editorName) : stri
 }
 
 /**
- * This function sorts articles by latest date.
- * @param  [type] $a [description]
- * @param  [type] $b [description]
- * @return int       [description]
+ * Returns array by using a user-supplied comparison function
+ * @param  [type] $a reference to the first index of the array
+ * @param  [type] $b reference to the second index of the array
+ * @return int       This function sorts articles by date.
  */
 
 function sortByDate($a, $b) : int {
