@@ -1,3 +1,5 @@
+# Plane News
+<img src="https://media.giphy.com/media/lKKXOCVviOAXS/giphy.gif" width="100%">
 # Mission
 The mission is to write a newsfeed with 5 different authors whom each contributes with 2 articles.
 The newsfeed should contain: Title, Content, Author, Published date and Like counter(number of likes every newsfeed has).
