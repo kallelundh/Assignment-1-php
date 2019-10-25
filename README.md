@@ -1,4 +1,19 @@
-# Plain-News
-This is one of my first hand-in assignments. I'm going to build a simple news feed with fake news articles.
-In this assignment I'm going to create a news feed in PHP.
-The news feed will consist of a list of the latest news created by different authors.
+# Mission
+The mission is to write a newsfeed with 5 different authors whom each contributes with 2 articles.
+The newsfeed should contain: Title, Content, Author, Published date and Like counter(number of likes every newsfeed has).
+Every author item should contain a ID and Full name.
+The project should use the following PHP functionality: Variables, Multiple data types, Arrays, Functions, Loops (for, while or foreach) and Output (echo, print etc.)
+
+# Written in
+PHP, HTML and CSS.
+
+# Installation
+Clone/download repository https://github.com/kallelundh/Assignment-1-php from GitHub
+
+# Tested by
+
+# License
+MIT
+
+# Author
+Karl-Johan Lundholm https://github.com/kallelundh
