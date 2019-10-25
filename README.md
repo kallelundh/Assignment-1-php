@@ -1,5 +1,5 @@
 # Plane News
-[<img src="https://media.giphy.com/media/lKKXOCVviOAXS/200w_d.gif" width="100%">]
+[<img src="https://media.giphy.com/media/lKKXOCVviOAXS/giphy.gif" width="30%">]
 
 # Mission
 The mission is to write a newsfeed with 5 different authors whom each contributes with 2 articles.
