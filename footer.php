@@ -2,7 +2,6 @@
 declare(strict_types=1);
 /**
  * 02: Get footer description.
- *
  * @param string $title
  * @param string $by
  * @param string $editorName
