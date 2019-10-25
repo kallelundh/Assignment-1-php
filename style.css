@@ -63,3 +63,7 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+
+.myself {
+	width: 400px;
+}
