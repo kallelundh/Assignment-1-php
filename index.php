@@ -20,7 +20,7 @@ require __DIR__.'/header.php';
       <br>
       <p class="content"><?= nl2br($article['content']) ?></p> <!-- Article -->
       <br>
-      <p class="author"><?php echo $authors[$article['authorId']]['fullName'] ?></p>
+      <p class="author"><?php echo $authors[$article['authorId']]['fullName'] ?></p> <!-- Article -->
       <br>
       <h3 class="title"><?= $article['publishDate']?></h3> <!-- PublishDate -->
       <br>

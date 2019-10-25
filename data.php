@@ -5,24 +5,19 @@ declare(strict_types=1);
 
 $authors = [
 	[
-		'fullName' => 'Sven Bertil',
-		'imgUrl' => 'Authors/karljohan.jpeg'
+		'fullName' => 'Sven Bertil'
 	],
 	[
-		'fullName' => 'Evert Tub',
-		'imgUrl' => 'Authors/karljohan.jpeg'
+		'fullName' => 'Evert Tub'
 	],
 	[
-		'fullName' => 'Emil Lönnebärsh',
-		'imgUrl' => 'Authors/karljohan.jpeg'
+		'fullName' => 'Emil Lönnebärsh'
 	],
 	[
-		'fullName' => 'Chesus Christus',
-		'imgUrl' => 'Authors/karljohan.jpeg'
+		'fullName' => 'Chesus Christus'
 	],
 	[
-		'fullName' => 'Donald Hump',
-		'imgUrl' => 'Authors/karljohan.jpeg'
+		'fullName' => 'Donald Hump'
 	]
 	];
 
