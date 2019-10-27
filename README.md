@@ -1,4 +1,4 @@
-# Plane News
+# Plain News
 <img src="https://media.giphy.com/media/oSYflamt3IEjm/giphy.gif" width="70%">
 
 # Mission
