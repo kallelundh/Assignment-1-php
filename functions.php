@@ -1,5 +1,7 @@
 <?php
+
 declare(strict_types=1);
+
 // This is the file where you can keep all your functions. Remember to NOT
 // execute/run any functions in this file. Keep it dumb.
 
@@ -11,8 +13,9 @@ declare(strict_types=1);
  * @return string This function gets the footerDescription.
  */
 
-function footerDescription(string $title, string $by, string $editorName) : string {
-    return "$title $by $editorName";
+function footerDescription(string $title, string $by, string $editorName): string
+{
+	return "$title $by $editorName";
 }
 
 /**
@@ -22,11 +25,11 @@ function footerDescription(string $title, string $by, string $editorName) : stri
  * @return int       This function sorts articles by date.
  */
 
-function sortByDate($a, $b) : int {
-  $date1 = strtotime($a['publishDate']);
-  $date2 = strtotime($b['publishDate']);
-  return $date2 - $date1;
+function sortByDate($a, $b): int
+{
+	$date1 = strtotime($a['publishDate']);
+	$date2 = strtotime($b['publishDate']);
+	return $date2 - $date1;
 }
 //sorts array
 usort($articles, 'sortByDate');
-?>
