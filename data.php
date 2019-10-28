@@ -7,19 +7,19 @@ declare(strict_types=1);
 
 $authors = [
 	[
-		'fullName' => 'Tim Roth'
+		'fullName' => 'Author: Tim Roth'
 	],
 	[
-		'fullName' => 'Amanda Plummer'
+		'fullName' => 'Author: Amanda Plummer'
 	],
 	[
-		'fullName' => 'John Travolta'
+		'fullName' => 'Author: John Travolta'
 	],
 	[
-		'fullName' => 'Samuel L. Jackson'
+		'fullName' => 'Author: Samuel L. Jackson'
 	],
 	[
-		'fullName' => 'Bruce Willis'
+		'fullName' => 'Author: Bruce Willis'
 	]
 ];
 
