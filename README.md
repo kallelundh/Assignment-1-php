@@ -19,4 +19,4 @@ Clone/download repository https://github.com/kallelundh/Assignment-1-php from Gi
 MIT
 
 # Author
-Karl-Johan Lundholm https://github.com/kallelundh
+* **Karl-Johan Lundholm** - [Karl-Johan](https://github.com/kallelundh)
