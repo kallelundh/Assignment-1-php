@@ -18,7 +18,8 @@ require __DIR__ . '/header.php';
 <?php usort($articles, "sortByDate"); ?>
 
 <?php foreach ($articles as $article) : ?>
-	<div class="imagebox"><img class="contentimg" src="<?= $article['contentImg'] ?>" alt="kalle"></div> <!-- Picture -->
+	<?php $contentImage = $article['contentImg']; ?>
+	<div class="imagebox"><img class="contentimg" src="<?= $contentImage; ?> " alt="kalle"></div> <!-- Picture -->
 	<br>
 	<div class="maincontainer">
 		<div class="box title">
@@ -27,7 +28,7 @@ require __DIR__ . '/header.php';
 		<br>
 		<div class="box content"><?= nl2br($article['content']) ?></div> <!-- Article -->
 		<br>
-		<div class="box author"><?php echo $authors[$article['authorId']]['fullName'] ?></div> <!-- Article -->
+		<div class="box author"><?= $authors[$article['authorId']]['fullName'] ?></div> <!-- Article -->
 		<br>
 		<div class="box title"><?= $article['publishDate'] ?></div> <!-- PublishDate -->
 		<br>

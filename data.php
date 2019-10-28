@@ -30,7 +30,7 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/Articles/text1.txt'),
 		'publishDate' => '2019-08-02',
 		'likeCounter' => 1,
-		'contentImg' => 'Authors/karljohan.jpeg'
+		'contentImg' => 'https://i.ytimg.com/vi/VnLJwYjw7bo/maxresdefault.jpg'
 	],
 	[
 		'title' => 'Scream at the diner',
@@ -38,7 +38,7 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/Articles/text2.txt'),
 		'publishDate' => '2019-01-02',
 		'likeCounter' => 2,
-		'contentImg' => 'Authors/karljohan.jpeg'
+		'contentImg' => 'https://cdn2.lamag.com/wp-content/uploads/sites/9/2016/11/hawthrone2-1.jpg'
 	],
 	[
 		'title' => 'Dance',
@@ -46,7 +46,7 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/Articles/text3.txt'),
 		'publishDate' => '2019-02-03',
 		'likeCounter' => 3,
-		'contentImg' => 'Authors/karljohan.jpeg'
+		'contentImg' => 'https://timeentertainment.files.wordpress.com/2011/08/03_top10moviedancescenes.jpg?w=720&h=480&crop=1'
 	],
 	[
 		'title' => 'Tasty burger',
@@ -54,7 +54,7 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/Articles/text4.txt'),
 		'publishDate' => '2019-03-04',
 		'likeCounter' => 4,
-		'contentImg' => 'Authors/karljohan.jpeg'
+		'contentImg' => 'https://brobible.files.wordpress.com/2017/01/pulp_fiction-samuel_l_jackson-burger.jpg?quality=90&w=650&h=405'
 	],
 	[
 		'title' => 'Boxing match',
@@ -62,7 +62,7 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/Articles/text5.txt'),
 		'publishDate' => '2019-01-05',
 		'likeCounter' => 5,
-		'contentImg' => 'Authors/karljohan.jpeg'
+		'contentImg' => 'https://www.rollingstone.com/wp-content/uploads/2018/06/rs-18852-pulp-1800-1400684739.jpg?resize=900,600&w=450'
 	],
 	[
 		'title' => 'Le big maq',
@@ -70,7 +70,7 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/Articles/text6.txt'),
 		'publishDate' => '2019-12-06',
 		'likeCounter' => 1,
-		'contentImg' => 'Authors/karljohan.jpeg'
+		'contentImg' => 'https://i.ytimg.com/vi/PxXhjFvNNGc/maxresdefault.jpg'
 	],
 	[
 		'title' => 'The Hateful Eight',
@@ -78,7 +78,7 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/Articles/text7.txt'),
 		'publishDate' => '2019-10-07',
 		'likeCounter' => 7,
-		'contentImg' => 'Authors/karljohan.jpeg'
+		'contentImg' => 'https://www.svtstatic.se/image-cms/svtse/1452776627/play/gomorron-sverige/article5868722.svt/alternates/extralarge/the-hateful-eight-jpg'
 	],
 	[
 		'title' => 'Pulp',
@@ -86,18 +86,18 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/Articles/text8.txt'),
 		'publishDate' => '2019-07-08',
 		'likeCounter' => 8,
-		'contentImg' => 'Authors/karljohan.jpeg'
+		'contentImg' => 'https://www.indiewire.com/wp-content/uploads/2019/07/Screen-Shot-2019-07-22-at-5.09.08-PM.png?w=780'
 	],
 	[
-		'title' => 'I believe your future is in your tomorrows',
+		'title' => '"I believe your future is in your tomorrows"',
 		'authorId' => 3,
 		'content' => file_get_contents(__DIR__ . '/Articles/text9.txt'),
 		'publishDate' => '2019-09-09',
 		'likeCounter' => 9,
-		'contentImg' => 'Authors/karljohan.jpeg'
+		'contentImg' => 'https://pmcvariety.files.wordpress.com/2018/05/john-travolta-as-john-gotti.jpg?w=1000'
 	],
 	[
-		'title' => 'Yippee-ki-yay',
+		'title' => 'My page',
 		'authorId' => 4,
 		'content' => file_get_contents(__DIR__ . '/Articles/text10.txt'),
 		'publishDate' => '2019-12-12',

@@ -16,7 +16,7 @@ $getFooterDesc = footerDescription($title, 'by', $editorName);
 ?>
 
 <footer>
-	<small>&copy; <?php echo date('Y M'); ?> <br> <?php echo $getFooterDesc ?></small>
+	<small>&copy; <?php echo date('Y M'); ?> <br> <?= $getFooterDesc ?></small>
 </footer>
 <script src="app.js"></script>
 </body>
