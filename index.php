@@ -26,7 +26,7 @@ require __DIR__ . '/header.php';
 			<h2><?= $article['title'] ?></h2>
 		</div> <!-- Title -->
 		<br>
-		<div class="box content"><?= nl2br($article['content']) ?></div> <!-- Article -->
+		<div class="box content"><?= ($article['content']) ?></div> <!-- Article -->
 		<br>
 		<div class="box author"><?= $authors[$article['authorId']]['fullName'] ?></div> <!-- Author -->
 		<br>
