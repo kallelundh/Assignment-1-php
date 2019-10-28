@@ -13,21 +13,21 @@ require __DIR__.'/header.php';
 <?php usort($articles, "sortByDate"); ?>
 
 <?php foreach ($articles as $article): ?>
-    <section>
-      <img class="myself" src="<?= $article['contentImg']?>" alt="kalle"> <!-- Picture -->
+      <div class="imagebox"><img class="contentimg" src="<?= $article['contentImg']?>" alt="kalle"></div> <!-- Picture -->
       <br>
-      <h1 class="title"><?= $article['title']?></h1> <!-- Title -->
+      <div class="maincontainer">
+      <div class="box title"><h2><?= $article['title']?></h2></div> <!-- Title -->
       <br>
-      <p class="content"><?= nl2br($article['content']) ?></p> <!-- Article -->
+      <div class="box content"><?= nl2br($article['content']) ?></div> <!-- Article -->
       <br>
-      <p class="author"><?php echo $authors[$article['authorId']]['fullName'] ?></p> <!-- Article -->
+      <div class="box author"><?php echo $authors[$article['authorId']]['fullName'] ?></div> <!-- Article -->
       <br>
-      <h3 class="title"><?= $article['publishDate']?></h3> <!-- PublishDate -->
+      <div class="box title"><?= $article['publishDate']?></div> <!-- PublishDate -->
       <br>
-      <h4 class="likes">Likes:<?= $article['likeCounter']?></h4> <!-- Likes -->
+      <div class="box likes">Likes: <?= $article['likeCounter']?></div> <!-- Likes -->
       <br>
       <br>
-    </section> <!-- Section -->
+    </div> <!-- Main Div -->
 <?php endforeach ?>
 
 
