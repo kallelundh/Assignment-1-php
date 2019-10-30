@@ -16,10 +16,10 @@ PHP, HTML, CSS and Javascript.
 Clone/download repository https://github.com/kallelundh/Assignment-1-php from GitHub
 
 # Tested by
-* [Daniel](https://github.com/DanThor)
+* [Daniel Thorsen](https://github.com/DanThor)
 
 # License
 MIT
 
 # Author
-* [Karl-Johan](https://github.com/kallelundh)
+* [Karl-Johan Lundholm](https://github.com/kallelundh)
