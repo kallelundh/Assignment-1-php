@@ -1,6 +1,6 @@
 # Plain News
 <p align="center">
-  <img width="450" height="600" src="https://media.giphy.com/media/oSYflamt3IEjm/giphy.gif" width="70%">
+  <img width="500" height="500" src="https://media.giphy.com/media/oSYflamt3IEjm/giphy.gif" width="70%">
 </p>
 
 # Mission
