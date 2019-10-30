@@ -2,9 +2,6 @@
 
 declare(strict_types=1);
 
-// This is the file where you can keep all your functions. Remember to NOT
-// execute/run any functions in this file. Keep it dumb.
-
 /**
  * Returns Plain news by Karl-Johan Lundholm
  * @param  string The title of the site
@@ -31,5 +28,3 @@ function sortByDate($a, $b): int
 	$date2 = strtotime($b['publishDate']);
 	return $date2 - $date1;
 }
-//sorts array
-usort($articles, 'sortByDate');
