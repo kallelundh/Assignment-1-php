@@ -118,26 +118,24 @@ nav {
 .box {
 	color: black;
 	text-align: center;
-	padding: 10px;
+	padding: 3px;
 }
 
 .maincontainer {
-	width: 75%;
-	margin: auto;
+	width: 60%;
 	display: flex;
 	justify-content: space-around;
-	border: 10px solid #fab499;
 	flex-direction: column;
 	display: flex;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 2.5vw;
-	margin: auto auto -80px auto;
+	font-size: 1.8vw;
+	margin: auto auto auto auto;
 }
 
 .imagebox {
-	width: 50%;
+	width: 75%;
 	min-height: 80vh;
-	margin: auto auto -100px auto;
+	margin: auto auto -200px auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;

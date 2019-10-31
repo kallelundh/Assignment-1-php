@@ -6,18 +6,18 @@ usort($articles, "sortByDate"); //sorting articles by date
 
 <?php foreach ($articles as $article) : ?>
 	<?php $contentImage = $article['contentImg']; ?>
-	<div class="imagebox"><img class="contentimg" src="<?= $contentImage; ?> " alt="kalle"></div> <!-- Printing out image -->
+	<div class="imagebox"><img class="contentimg" src="<?= $contentImage; ?> " alt="pic"></div> <!-- Printing out image -->
 	<br>
 	<div class="maincontainer">
 		<div class="box title">
-			<h2><?= $article['title'] ?></h2>
+			<h1><?= $article['title'] ?></h1>
 		</div> <!-- Title -->
 		<br>
 		<div class="box"><?= ($article['content']) ?></div> <!-- Article -->
 		<br>
-		<div class="box"><?= $authors[$article['authorId']]['fullName'] ?></div> <!-- Author -->
+		<h2 class="box"><?= $authors[$article['authorId']]['fullName'] ?></h2> <!-- Author -->
 		<br>
-		<div class="box"><?= $article['publishDate'] ?></div> <!-- PublishDate -->
+		<h3 class="box"><?= $article['publishDate'] ?></h3> <!-- PublishDate -->
 		<br>
 		<div class="box">Likes: <?= $article['likeCounter'] ?></div> <!-- Likes -->
 		<br>
