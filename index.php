@@ -1,5 +1,7 @@
-<?php require __DIR__ . '/header.php';
+<?php
 
+declare(strict_types=1);
+require __DIR__ . '/header.php';
 
 usort($articles, "sortByDate"); //sorting articles by date
 ?>
@@ -25,7 +27,8 @@ usort($articles, "sortByDate"); //sorting articles by date
 	</div> <!-- Main Div -->
 <?php endforeach ?>
 
-
 <?php
+
 require __DIR__ . '/footer.php';
+
 ?>
