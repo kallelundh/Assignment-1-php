@@ -13,7 +13,10 @@ The project should use the following PHP functionality: Variables, Multiple data
 PHP, HTML, CSS and Javascript.
 
 # Installation
-Clone/download repository https://github.com/kallelundh/Assignment-1-php from GitHub
+Clone/download repository https://github.com/kallelundh/Assignment-1-php from GitHub (my recommendation, to desktop).
+Open folder in code editor.
+Navigate to folder in terminal.
+Open local server.
 
 # Tested by
 * [Daniel Thorsen](https://github.com/DanThor)
